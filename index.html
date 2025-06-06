@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Green Plant Collector</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="game-container">
+    <header>
+      <h1>🌱 Green Plant Collector</h1>
+      <div class="status">
+        <span>Level: <span id="level">1</span>/20</span>
+        <span>Score: <span id="score">0</span></span>
+        <span>Lives: <span id="lives">3</span></span>
+      </div>
+    </header>
+
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+
+    <div class="controls">
+      <button id="startBtn">Start Game</button>
+      <p id="message"></p>
+    </div>
+  </div>
+  <div id="results" class="results-screen hidden">
+  <h2>🌿 Game Over</h2>
+  <p id="finalScore">Score: 0</p>
+  <p id="finalLevel">Level Reached: 1</p>
+  <button id="restartBtn">Restart Game</button>
+</div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>

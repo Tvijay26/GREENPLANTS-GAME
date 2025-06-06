@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(#a8e6cf, #dcedc1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.game-container {
+  background: #f1f8e9;
+  border: 4px solid #4caf50;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #4caf50;
+  padding: 15px;
+  text-align: center;
+  width: 860px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+  color: #2e7d32;
+}
+
+.status {
+  margin: 10px 0;
+  font-size: 1.2em;
+  color: #33691e;
+  display: flex;
+  justify-content: space-around;
+}
+
+#gameCanvas {
+  border: 3px solid #66bb6a;
+  background: #c8e6c9;
+  border-radius: 10px;
+  cursor: none;
+}
+
+.controls {
+  margin-top: 15px;
+}
+
+#startBtn {
+  background: #66bb6a;
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#startBtn:hover {
+  background: #43a047;
+}
+
+#message {
+  color: #d32f2f;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.results-screen {
+  margin-top: 20px;
+  padding: 15px;
+  border: 2px dashed #388e3c;
+  background-color: #e8f5e9;
+  border-radius: 10px;
+  color: #1b5e20;
+}
+
+.hidden {
+  display: none;
+}
+
+#restartBtn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 25px;
+  font-size: 1em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#restartBtn:hover {
+  background-color: #2e7d32;
+}
